@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="50"
+     viewBox="0 0 900 50" role="img" aria-label="01. About Me">
+  <title>01. About Me</title>
+  <defs>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0%" stop-color="#233554"/>
+      <stop offset="100%" stop-color="#233554" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" x2="1">
+      <stop offset="0%" stop-color="#64ffda" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#64ffda" stop-opacity=".7"/>
+      <stop offset="100%" stop-color="#64ffda" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+                        values="-1 0; 1 0; 1 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="899" height="49" rx="8" fill="#0a192f" stroke="#233554"/>
+  <rect x="20" y="13" width="3" height="24" rx="1.5" fill="#64ffda"/>
+  <text x="36" y="32" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#64ffda">01.</text>
+  <text x="75.3" y="32" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" font-weight="600"
+        letter-spacing="-.2" fill="#ccd6f6">About Me</text>
+  <rect x="176.5" y="24.5" width="699.5" height="1" fill="url(#fade)"/>
+  <rect x="176.5" y="24.5" width="699.5" height="1" fill="url(#sweep)"/>
+</svg>
